@@ -1,0 +1,6 @@
+.ChatContainer {
+    box-sizing: border-box;
+    max-height: 100%;
+    overflow-y: hidden;
+    padding: 15px;
+}

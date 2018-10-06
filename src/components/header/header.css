@@ -1,0 +1,21 @@
+header {
+    align-items: center;
+    background-color: rgb(0, 139, 139);
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    grid-column: span 2;
+    padding: 15px;
+}
+.Logo {
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+.Logo svg {
+    height: 100%;
+    width: 100%;
+}
+.Text {
+    margin-left: 8px;
+}

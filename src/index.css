@@ -1,0 +1,16 @@
+:root {
+  font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 16px;
+  }
+}
+html, body {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
