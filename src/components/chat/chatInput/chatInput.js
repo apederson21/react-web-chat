@@ -23,17 +23,16 @@ class chatInput extends Component {
         let msg = input.value;
         if (msg && msg.trim().length > 0) {
             this.props.sendMessageHandler(msg);
-            // clear input
-            //input.value = '';
         }
     }
 
     shouldComponentUpdate(nextProps) {
+        let input = document.querySelector(`.${classes.ChatInput}`);
+        input.focus();
         return !!nextProps && !!nextProps.clearInput;
     }
 
     componentDidUpdate() {
-        // clear input
         let input = document.querySelector(`.${classes.ChatInput}`);
         input.value = '';
     }
